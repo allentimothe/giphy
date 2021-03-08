@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Magra&family=Racing+Sans+One&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>GIF Hunt</title>
+</head>
+<body>
+    <div class= header>
+        <header><strong>GIF Hunt</strong></header>
+            </div>
+    <!-- I put all items in a flex div to be able move the entire section at will. -->
+<div class= flx>
+                <div class="search">
+                   <form>
+                    <label>
+                    <input type="text" placeholder='Enter Search Here' class='find'>
+                    </label>
+                    <input type="submit" value="" id="btn">
+                </form>
+                <button id="refresh">
+                    <i class="fas fa-sync"></i>
+                </button>
+            </div>
+    <main>
+        <div class="home">
+            <p id="data"></p>
+            <img id="images" src="" alt="">
+            <p id="type"></p>
+            <p id="title"></p>
+            <p id="import_datetime"></p>   
+        </div> 
+    </main>
+    <footer></footer>
+</body>
+</html>

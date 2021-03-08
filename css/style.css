@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');
+
+body {
+    color: black;
+    margin: 0;
+    margin-bottom: 0;
+    background: #00416A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+     
+}
+
+.flx {
+    height: 97vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Magra', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    border-radius: 3%;
+    align-items: center;
+    filter: drop-shadow(8px 5px 10px #69696b);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Allan', cursive;
+    height: 50px;
+    width: 100%; 
+    font-size: 40px;
+    filter: drop-shadow(8px 5px 10px #666669);
+    color: white;
+    
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    margin-left: 2%;
+    border: black;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+.find{
+    border: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+input[type=submit] {
+    background-color: transparent;
+    color: white;
+    font-family: 'Alata', sans-serif; 
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border-color: transparent;
+    background-image: url(/img/search-24px.svg);
+    margin-top: 5px;
+}
+
+#refresh {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
