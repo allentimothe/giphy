@@ -75,12 +75,12 @@ footer{
 .find{
     border: 5px;
     background-color: transparent;
-    color: white;
+    color: black;
 }
 
 input[type=submit] {
     background-color: transparent;
-    color: white;
+    color: black;
     font-family: 'Alata', sans-serif; 
     border-radius: 50%;
     height: 30px;
@@ -97,6 +97,16 @@ input[type=submit] {
     display: flex;
     justify-content: flex-start;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: flex-end;
+    font-family: 'Allan', cursive;
+    margin-left: 5%;
+} 
 
 
 
